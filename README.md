@@ -1,27 +1,24 @@
 # Password Strength Analyzer
 
-A Python tool to check password strength with advanced checks:
-
-- Common password / leetspeak detection  
-- Visual strength scoring (0–10)  
-- Suggestions for improvement  
-- Optional **Have I Been Pwned** breach check (k-anonymity API)  
-- Safe logging (masked passwords only)  
-
----
+A Python project that checks password strength and checks if passwords appear in known breaches. Ideal for cybersecurity students learning password security.
 
 ## Features
 
-- Detects weak, predictable, or breached passwords  
-- Scores passwords on length, uppercase/lowercase letters, digits, and symbols  
-- Visual strength bar and suggestions  
-- Logs anonymized results for auditing  
+- Detects weak or predictable passwords
+- Scores passwords on length, letters, digits, and symbols
+- Gives suggestions for improvement
+- Optional Have I Been Pwned (HIBP) breach check
+- Safe logging (masked passwords)
 
----
+## How to use
 
-## Usage
+1. Open your terminal in this project folder
+2. Run:
+   python password_strength.py
+3. Enter your password to test
+4. See the strength score and suggestions
 
-1. Install dependencies:
+## Technologies
 
-```bash
-pip install -r requirements.txt
+- Python
+- Have I Been Pwned API (optional)
