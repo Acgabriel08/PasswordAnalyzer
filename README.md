@@ -1,24 +1,69 @@
-# Password Strength Analyzer
+# Password Strength Analyzer 🛡️
 
-A Python project that checks password strength and checks if passwords appear in known breaches. Ideal for cybersecurity students learning password security.
+A Python project that checks password strength and verifies passwords against known breaches using the Have I Been Pwned API. Perfect for cybersecurity students learning password security.
+
+---
 
 ## Features
 
-- Detects weak or predictable passwords
-- Scores passwords on length, letters, digits, and symbols
-- Gives suggestions for improvement
-- Optional Have I Been Pwned (HIBP) breach check
-- Safe logging (masked passwords)
+- Detects weak, predictable, or breached passwords
+- Scores passwords based on:
+  - Length
+  - Uppercase & lowercase letters
+  - Digits
+  - Symbols
+- Visual strength bar (0–10)
+- Suggestions for improvement
+- Optional Have I Been Pwned (HIBP) API check
+- Safe logging (masked passwords only)
 
-## How to use
+---
+
+## Installation
 
 1. Open your terminal in this project folder
 2. Run:
-   python password_strength.py
-3. Enter your password to test
-4. See the strength score and suggestions
+```
+pip install -r requirements.txt
+```
 
-## Technologies
+---
 
-- Python
-- Have I Been Pwned API (optional)
+## Usage
+
+Run the script:
+
+```
+python password_strength.py
+```
+
+- Enter your password when prompted  
+- See the strength score, suggestions, and optional breach check results  
+
+---
+
+## Screenshots
+
+*(Add screenshots in a folder called `screenshots` and reference them here)*
+
+Example:
+
+```
+![Password Analyzer Output](screenshots/output.png)
+```
+
+---
+
+## License
+
+MIT License (optional)  
+
+---
+
+## Portfolio Notes
+
+This project demonstrates:
+
+- Cybersecurity fundamentals (CIA triad, password security)
+- Python scripting, testing, and debugging
+- API integration (Have I Been Pwned) and safe handling of sensitive data
